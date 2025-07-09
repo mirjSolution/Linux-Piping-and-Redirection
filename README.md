@@ -61,13 +61,13 @@ history | grep sudo | less
 
 ```bash
 history | grep sudo > test1.txt
-history | grep rm >> test1.txt
+history | grep rm >> test2.txt
 ```
 
 ### Save filtered command history
 
 ```bash
-cat sudo-commands.txt > all-commands.txt
+cat test1.txt > test2.txt
 ```
 
 ---
