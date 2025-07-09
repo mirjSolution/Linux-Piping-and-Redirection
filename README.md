@@ -102,7 +102,7 @@ Use `;` to run multiple commands on one line:
 clear; sleep 1; echo "Welcome back!"
 ```
 
-![error](Images/sequential.png)
+![error](Images/sequential.gif)
 
 ---
 
