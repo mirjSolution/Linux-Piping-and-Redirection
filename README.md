@@ -64,6 +64,8 @@ history | grep sudo > test1.txt
 history | grep rm >> test2.txt
 ```
 
+![redirection](Images/combine.gif)
+
 ### Save filtered command history
 
 ```bash
