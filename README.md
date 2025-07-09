@@ -66,11 +66,14 @@ history | grep rm >> test2.txt
 
 ![redirection](Images/redirection.gif)
 
-### Save filtered command history
+### Filter and Save filtered command history
 
 ```bash
-cat test1.txt > test2.txt
+cat config.yaml | grep port
+cat config.yaml | grep port > test3.txt
 ```
+
+![filterSave](Images/filterSave.png)
 
 ---
 
@@ -87,6 +90,8 @@ cat nonexistingfile.txt
 # This will trigger a stderr output
 ```
 
+![error](Images/error.png)
+
 ---
 
 ## 🧵 Running Commands Sequentially
@@ -96,6 +101,8 @@ Use `;` to run multiple commands on one line:
 ```bash
 clear; sleep 1; echo "Welcome back!"
 ```
+
+![error](Images/sequential.png)
 
 ---
 
