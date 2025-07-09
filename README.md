@@ -10,19 +10,22 @@ We will explore some important Linux concepts—**piping**, **redirection**, and
 
 - **Definition**: Takes the output of one command and uses it as the input of another.
 - **Syntax**: `command1 | command2`
-- **Example**:
-  ```bash
-  cat /var/log/syslog | less
-  ```
-  ![Piping and Redirection](Images/piping.gif)
 
 ### Less Command
+
+- **Example**:
+
+  ```bash
+   history | less
+  ```
 
 - Used to view long outputs page by page.
 - Navigate using:
   - `Space`: Next page
   - `B`: Previous page
   - `Q`: Quit
+
+![Pipings](Images/pipings.gif)
 
 ### grep Command
 
