@@ -46,6 +46,8 @@ We will explore some important Linux concepts—**piping**, **redirection**, and
 history | grep sudo | less
 ```
 
+![combine](Images/combine.gif)
+
 ---
 
 ## 🔄 Redirection
@@ -58,8 +60,8 @@ history | grep sudo | less
 #### Examples
 
 ```bash
-history | grep sudo > sudo-commands.txt
-history | grep rm >> sudo-commands.txt
+history | grep sudo > test1.txt
+history | grep rm >> test1.txt
 ```
 
 ### Save filtered command history
