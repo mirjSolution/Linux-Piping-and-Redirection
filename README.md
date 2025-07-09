@@ -38,7 +38,7 @@ We will explore some important Linux concepts—**piping**, **redirection**, and
   cat config.yaml | grep port
   ```
 
-![Pipings](Images/pipings.gif)
+![Grep](Images/grep.gif)
 
 ### Combining Piping with `less`
 
